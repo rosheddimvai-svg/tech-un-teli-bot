@@ -30,7 +30,7 @@ const puppeteer = require("puppeteer");
 /* =========================
  * Config
  * ========================= */
-const BOT_TOKEN = "8336095713:AAGFMei05q6BTfU71fJiwS0C-HpiM8OB6Ng";
+const BOT_TOKEN = "8336:AAGFMei05q6BTfU71fJiwS0C-HpiM8OB6Ng";
 
 // How many BMs to attempt per run
 const MAX_BM_ATTEMPTS = 5;
@@ -660,3 +660,4 @@ bot.on("callback_query", async (query) => {
     );
   }
 });
+
